@@ -1,0 +1,158 @@
+.OuterContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.Navbar {
+  padding: 10px;
+  background-color: #dbeafe;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+
+.LogoImg {
+  height: 40px;
+  margin-left: 20px;
+}
+
+.title {
+  color: #0f172a;
+  font-size: 24px;
+}
+
+.ToolBar {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.addBtn {
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  background-color: #dbeafe;
+  padding: 10px 15px;
+}
+
+.plusImage {
+  width: 10px;
+}
+
+.MainBody {
+  flex-grow: 1;
+  display: flex;
+}
+
+.LeftContainer {
+  width: 300px;
+  max-height: calc(100vh - 118px - 75px);
+}
+
+.RightContainer {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Slider {
+  max-height: 100%;
+  list-style-type: none;
+  padding: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: flex-end;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+
+.li-active {
+  background-color: #dbeafe;
+}
+
+.sliderIndex {
+  font-size: 16px;
+  color: #0f172a;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.SlideCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  height: 500px;
+  aspect-ratio: 16/9;
+  box-shadow: 0px 14px 16px 0px #bfbfbf;
+  border-radius: 20px;
+  text-align: center;
+  flex-basis: 100px;
+  font-family: 'Bree Serif';
+}
+
+input {
+  background-color: #dbeafe;
+  border: 0;
+  margin: 15px 0;
+  outline: none;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+.headingInput {
+  font-size: 50px;
+}
+
+.paragraphInput {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #0967d2;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 30px;
+  margin: 15px 0;
+  color: #0f172a;
+}
+
+.miniHeading {
+  font-size: 16px;
+}
+
+.miniDescription {
+  font-size: 10px;
+}
+
+.miniCardContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  width: 200px;
+  aspect-ratio: 16/9;
+  box-shadow: 0px 14px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+}
